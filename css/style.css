@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* , *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-color: black;
+}
+
+.title > h1 {
+    font-size: 45px;
+}
+
+i {
+    color: white;
+}
+
+.title {
+    color: #2f0f40;
+}
+.title p {
+    font-size: 1.2em;
+}
+
+@media (max-width: 400px) {
+    .title > h1 {
+        font-size: 35px;
+    }
+}
+
+.card-title {
+    font-weight: bold;
+}
