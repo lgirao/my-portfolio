@@ -23,6 +23,8 @@ i {
 
 .title {
     color: #2f0f40;
+    max-width: 80%;
+    margin: 0 auto;
 }
 .title p {
     font-size: 1.2em;
