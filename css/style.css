@@ -20,11 +20,18 @@ header {
 i {
     color: white;
 }
+i:hover {
+    color:rgb(15, 255, 255);
+}
 
 .title {
     color: #2f0f40;
     max-width: 80%;
     margin: 0 auto;
+}
+.title img {
+    border-radius: 1000px;
+    width: 100px;
 }
 .title p {
     font-size: 1.2em;
@@ -38,4 +45,8 @@ i {
 
 .card-title {
     font-weight: bold;
+}
+
+.nav-item:hover {
+    color: rgb(243, 13, 174);
 }
